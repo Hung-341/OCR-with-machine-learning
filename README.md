@@ -1,26 +1,25 @@
-
-# OCR Project
+# OCR-with-machine-learning
 
 ## Overview
 
-This project implements an Optical Character Recognition (OCR) system, which extracts text from images and converts it into editable text. The project utilizes deep learning techniques to recognize and process various types of text from images, including printed and handwritten text.
+This project implements an Optical Character Recognition (OCR) system with machine learning, which extracts text from images and converts it into editable text. The project utilizes machine learning techniques to recognize and process various types of text from images.
 
 ## Features
 
 - **Image Preprocessing**: Enhance image quality through noise reduction, thresholding, and other preprocessing techniques.
 - **Text Detection**: Identify and isolate text regions within the image using advanced algorithms.
-- **Text Recognition**: Convert the detected text regions into editable text using a trained deep learning model.
+- **Text Recognition**: Convert the detected text regions into editable text using a trained machine learning model.
 - **Output Formatting**: Provide the recognized text in a structured format, such as plain text or JSON.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/OCR-Project.git
+   git clone https://github.com/Hung-341/OCR-with-machine-learning.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd OCR-Project
+   cd OCR-with-machine-learning
    ```
 3. Install the required dependencies:
    ```bash
