@@ -1,15 +1,12 @@
 import numpy as np
 from model.model import HOGFeatureExtractor, SVM
+from data.preprocess import preprocess_data
 
 def load_data():
-    # This function should be replaced with actual code to load your dataset
-    # Here we create some dummy data for demonstration purposes
-    # X: Images, y: Labels (e.g., 0 for 'A', 1 for 'B')
-    num_samples = 100
-    image_size = (32, 32)
-    X = np.random.rand(num_samples, *image_size) * 255
-    y = np.random.randint(0, 2, num_samples)
-    return X, y
+    # Load raw data (replace with actual file paths or data sources)
+    images, labels = preprocess_data("path_to_your_image_data", "path_to_your_label_data")
+
+    return images, labels
 
 def train_model():
     # Load data
